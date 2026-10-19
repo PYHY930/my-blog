@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My New Hugo Project</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Oct 2026 14:02:49 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Mon, 19 Oct 2026 14:02:49 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;那是我日夜思念深深爱着的人啊
+到底我该如何表达
+她会接受我吗&lt;/p&gt;
+&lt;p&gt;也许永远都不会跟她说出那句话
+注定我要浪迹天涯
+怎么能有牵挂&lt;/p&gt;
+&lt;p&gt;梦想总是遥不可及
+是不是应该放弃
+花开花落又是一季
+春天啊你在哪里&lt;/p&gt;
+&lt;p&gt;青春如同奔流的江河
+一去不回来不及道别
+只剩下麻木的我
+没有了当年的热血&lt;/p&gt;
+&lt;p&gt;看那满天飘零的花朵
+在最美丽的时刻凋谢
+有谁会记得这世界他来过&lt;/p&gt;
+&lt;p&gt;转眼过去多年时间
+多少离合悲欢
+曾经志在四方少年
+羡慕南飞的雁&lt;/p&gt;
+&lt;p&gt;各自奔前程的身影
+匆匆渐行渐远
+未来在哪里平凡
+啊 谁给我答案&lt;/p&gt;
+&lt;p&gt;那时陪伴我的人啊
+你们如今在何方
+我曾经爱过的人啊
+现在是什么模样&lt;/p&gt;
+&lt;p&gt;当初的愿望实现了吗
+事到如今只好祭奠吗
+任岁月风干理想
+再也找不回真的我&lt;/p&gt;
+&lt;p&gt;抬头仰望这漫天星河
+那时候陪伴我的那颗
+这里的故事你是否还记得&lt;/p&gt;
+&lt;p&gt;生活像一把无情刻刀
+改变了我们模样
+未曾绽放就要枯萎吗
+我有过梦想&lt;/p&gt;
+&lt;p&gt;青春如同奔流的江河
+一去不回来不及道别
+只剩下麻木的我
+没有了当年的热血&lt;/p&gt;
+&lt;p&gt;看那满天飘零的花朵
+在最美丽的时刻凋谢
+有谁会记得这世界他曾经来过&lt;/p&gt;
+&lt;p&gt;当初的愿望实现了吗
+事到如今只好祭奠吗
+任岁月风干理想
+再也找不回真的我&lt;/p&gt;
+&lt;p&gt;抬头仰望这漫天星河
+那时候陪伴我的那颗
+这里的故事你是否还记得&lt;/p&gt;
+&lt;p&gt;如果有明天
+祝福你亲爱的
+&lt;img alt=&#34;大肥鱼&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/111.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
