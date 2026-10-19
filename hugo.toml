@@ -1,4 +1,48 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://你的网站域名/"
+languageCode = "zh-cn"
+title = "我的博客"
 theme = "PaperMod"
+
+# 开启基础功能
+[params]
+    author = "你的名字"
+    description = "记录我的技术与生活"
+    ShowReadingTime = true       
+    ShowShareButtons = true      
+    ShowCodeCopyButtons = true   
+    ShowBreadCrumbs = true       
+    ShowPostNavLinks = true      
+    
+    # 首页个人卡片
+    [params.homeInfoParams]
+        Title = "你好，我是 [P.K.Thomas] 👋"
+        Content = "欢迎来到我的数字花园。"
+
+    # 开启搜索
+    ShowSearch = true
+
+# 社交图标
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/你的GitHub用户名"
+
+[[params.socialIcons]]
+    name = "mail"
+    url = "mailto:你的邮箱@example.com"
+
+# 导航栏菜单
+[[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 20
+
+# 搜索功能的输出格式
+[outputs]
+    home = ["HTML", "RSS", "JSON"]

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on My New Hugo Project</title>
+    <title>Posts on 我的博客</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Project</description>
+    <description>Recent content in Posts on 我的博客</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Mon, 19 Oct 2026 14:02:49 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -71,6 +71,13 @@
 祝福你亲爱的
 &lt;img alt=&#34;大肥鱼&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/111.jpg&#34;&gt;
 oiiiiiiiiiiiiiiii&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Strange</title>
+      <link>http://localhost:1313/posts/strange/</link>
+      <pubDate>Mon, 19 Oct 2026 14:02:49 +0800</pubDate>
+      <guid>http://localhost:1313/posts/strange/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
   </channel>
 </rss>
