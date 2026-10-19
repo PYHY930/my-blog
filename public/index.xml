@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>我的博客</title>
-    <link>http://localhost:55351/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 我的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 19 Oct 2026 14:02:49 +0800</lastBuildDate>
-    <atom:link href="http://localhost:55351/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://localhost:55351/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Mon, 19 Oct 2026 14:02:49 +0800</pubDate>
-      <guid>http://localhost:55351/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;p&gt;那是我日夜思念深深爱着的人啊
 到底我该如何表达
 她会接受我吗&lt;/p&gt;
@@ -69,17 +69,19 @@
 这里的故事你是否还记得&lt;/p&gt;
 &lt;p&gt;如果有明天
 祝福你亲爱的
-&lt;img alt=&#34;大肥鱼&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:55351/images/111.jpg&#34;&gt;
+&lt;img alt=&#34;大肥鱼&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/111.jpg&#34;&gt;
 oiiiiiiiiiiiiiiii&lt;/p&gt;</description>
     </item>
     <item>
       <title>Strange</title>
-      <link>http://localhost:55351/posts/strange/</link>
+      <link>http://localhost:1313/posts/strange/</link>
       <pubDate>Mon, 19 Oct 2026 14:02:49 +0800</pubDate>
-      <guid>http://localhost:55351/posts/strange/</guid>
+      <guid>http://localhost:1313/posts/strange/</guid>
       <description>&lt;audio controls&gt;
-  &lt;source src=&#34;http://localhost:55351/audio/Let me think about it.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
-  &lt;source src=&#34;http://localhost:55351/audio/Умри, если меня не любишь.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/audio/Let me think about it.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+&lt;/audio&gt;
+&lt;audio controls&gt;
+  &lt;source src=&#34;http://localhost:1313/audio/Умри, если меня не любишь.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;</description>
     </item>
   </channel>

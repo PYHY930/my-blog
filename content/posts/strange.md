@@ -5,5 +5,10 @@ title = 'Strange'
 +++
 <audio controls>
   <source src="/audio/Let me think about it.mp3" type="audio/mpeg">
+  
+</audio>
+
+<audio controls>
   <source src="/audio/Умри, если меня не любишь.mp3" type="audio/mpeg">
+  
 </audio>

@@ -20,7 +20,8 @@ theme = "PaperMod"
 
     # 开启搜索
     ShowSearch = true
-
+    #开启图标
+    customCSS = ["css/custom.css"]
 # 社交图标
 [[params.socialIcons]]
     name = "github"
