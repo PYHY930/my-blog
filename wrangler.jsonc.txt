@@ -1,0 +1,11 @@
+{
+  "name": "my-blog",
+  "compatibility_date": "2026-10-19",
+  "build": {
+    "command": "hugo --gc --minify"
+  },
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}
