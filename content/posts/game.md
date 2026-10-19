@@ -1,7 +1,7 @@
 +++
 date = '2026-10-19T14:02:49+08:00'
 draft = false
-title = 'My First Post'
+title = '俄罗斯方块'
 +++
 <p>来玩一下我制作的俄罗斯方块：</p>
 

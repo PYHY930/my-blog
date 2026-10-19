@@ -19,6 +19,7 @@
             display: flex;
             gap: 20px;
             align-items: flex-start;
+            position: relative;
         }
         canvas {
             background: #000;
@@ -39,16 +40,24 @@
         }
         .panel h3 { margin: 0 0 10px 0; font-size: 14px; color: #888; }
         .panel span { font-size: 20px; font-weight: bold; color: #4CAF50; }
-        .controls { font-size: 12px; color: #aaa; line-height: 1.6; }
+        .controls { font-size: 13px; color: #aaa; line-height: 1.8; text-align: left; }
         #gameOver { 
-            position: absolute; color: red; font-size: 30px; font-weight: bold; 
-            display: none; text-shadow: 0 0 10px red;
+            position: absolute; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            color: red; 
+            font-size: 30px; 
+            font-weight: bold; 
+            display: none; 
+            text-shadow: 0 0 10px red;
+            z-index: 10;
         }
     </style>
 </head>
 <body>
 
-    <div id="gameOver">GAME OVER</div>
+    <div id="gameOver">GAME OVER<br><span style="font-size:16px; color:#fff; text-shadow:none;">按 Q 重新开始</span></div>
 
     <div class="game-container">
         <canvas id="game" width="300" height="600"></canvas>
@@ -66,9 +75,11 @@
                 <span id="score">00000</span>
             </div>
             <div class="panel controls">
-                ← → ↓ 移动<br>
-                ↑ 旋转<br>
-                S 暂停 / Q 重开
+                <strong>操作说明：</strong><br>
+                A / D 移动<br>
+                W 旋转<br>
+                S 加速下落<br>
+                空格 暂停 / 继续
             </div>
         </div>
     </div>
@@ -81,9 +92,9 @@
         
         const COLS = 10;
         const ROWS = 20;
-        const BLOCK_SIZE = 30; // 画布宽 300，所以每个格子 30px
+        const BLOCK_SIZE = 30;
 
-        // 你的 C 代码中的七种形状矩阵
+        // 七种方块矩阵 (对应你 C 代码的 7 种情况)
         const PIECES = [
             [[[0,1,1,0],[1,1,0,0],[0,0,0,0],[0,0,0,0]], [[1,0,0,0],[1,1,0,0],[0,1,0,0],[0,0,0,0]], [[0,1,1,0],[1,1,0,0],[0,0,0,0],[0,0,0,0]], [[1,0,0,0],[1,1,0,0],[0,1,0,0],[0,0,0,0]]], // S
             [[[1,1,0,0],[0,1,1,0],[0,0,0,0],[0,0,0,0]], [[0,1,0,0],[1,1,0,0],[1,0,0,0],[0,0,0,0]], [[1,1,0,0],[0,1,1,0],[0,0,0,0],[0,0,0,0]], [[0,1,0,0],[1,1,0,0],[1,0,0,0],[0,0,0,0]]], // Z
@@ -144,7 +155,7 @@
             ctx.fillStyle = '#000';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-            // 画底板
+            // 绘制已固定的方块
             for (let y = 0; y < ROWS; y++) {
                 for (let x = 0; x < COLS; x++) {
                     if (board[y][x] > 0) {
@@ -153,7 +164,7 @@
                 }
             }
 
-            // 画当前方块
+            // 绘制当前正在下落的方块
             if (currentPiece) {
                 currentPiece.matrix.forEach((row, y) => {
                     row.forEach((value, x) => {
@@ -201,7 +212,7 @@
             currentRotation = (currentRotation + 1) % 4;
             currentPiece.matrix = PIECES[currentPiece.index][currentRotation];
             if (collide()) {
-                // 踢墙判定（简单处理）
+                // 简单墙踢处理
                 currentX += 1;
                 if (collide()) {
                     currentX -= 2;
@@ -263,14 +274,33 @@
                 if (e.key.toLowerCase() === 'q') location.reload();
                 return;
             }
-            if (e.key.toLowerCase() === 's') isPaused = !isPaused;
+            
+            const key = e.key.toLowerCase();
+
+            // 空格键暂停
+            if (key === ' ') {
+                isPaused = !isPaused;
+                return;
+            }
+
             if (isPaused) return;
 
-            switch (e.key) {
-                case 'ArrowLeft': currentX--; if (collide()) currentX++; break;
-                case 'ArrowRight': currentX++; if (collide()) currentX--; break;
-                case 'ArrowDown': drop(); break;
-                case 'ArrowUp': rotate(); break;
+            // WASD 按键映射
+            switch (key) {
+                case 'a': 
+                    currentX--; 
+                    if (collide()) currentX++; 
+                    break;
+                case 'd': 
+                    currentX++; 
+                    if (collide()) currentX--; 
+                    break;
+                case 's': 
+                    drop(); 
+                    break;
+                case 'w': 
+                    rotate(); 
+                    break;
             }
         });
 
