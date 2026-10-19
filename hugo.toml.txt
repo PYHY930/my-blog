@@ -1,18 +1,27 @@
+baseURL = "https://你的网站域名/"
+languageCode = "zh-cn"
+title = "我的博客"
+theme = "PaperMod"
+
+# 开启基础功能
 [params]
     author = "你的名字"
     description = "记录我的技术与生活"
-    ShowReadingTime = true       # 显示阅读时间
-    ShowShareButtons = true      # 文章底部显示分享按钮
-    ShowCodeCopyButtons = true   # 代码块右上角显示复制按钮
-    ShowBreadCrumbs = true       # 顶部显示导航路径
-    ShowPostNavLinks = true      # 底部显示上一篇/下一篇
-
-    # 首页的个人卡片
+    ShowReadingTime = true       
+    ShowShareButtons = true      
+    ShowCodeCopyButtons = true   
+    ShowBreadCrumbs = true       
+    ShowPostNavLinks = true      
+    
+    # 首页个人卡片
     [params.homeInfoParams]
         Title = "你好，我是 [你的名字] 👋"
-        Content = "欢迎来到我的数字花园，这里记录了代码和生活。"
+        Content = "欢迎来到我的数字花园。"
 
-# 社交图标（在首页左侧显示）
+    # 开启搜索
+    ShowSearch = true
+
+# 社交图标
 [[params.socialIcons]]
     name = "github"
     url = "https://github.com/你的GitHub用户名"
@@ -20,3 +29,20 @@
 [[params.socialIcons]]
     name = "mail"
     url = "mailto:你的邮箱@example.com"
+
+# 导航栏菜单
+[[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 20
+
+# 搜索功能的输出格式
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
