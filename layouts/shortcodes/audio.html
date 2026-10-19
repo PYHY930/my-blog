@@ -1,3 +1,37 @@
+<style>
+.audio-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
+}
+.audio-card__media {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.audio-card__media img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.audio-card__title {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
+}
+.audio-card__artist {
+  color: var(--secondary);
+  font-size: 0.9em;
+}
+.audio-card__player {
+  width: 100%;
+}
+</style>
+
 {{- $src := .Get "src" -}}
 {{- if not $src -}}
   <p><em>Audio "src" is required.</em></p>
@@ -8,7 +42,7 @@
   {{- $ext := lower (path.Ext $src) -}}
   {{- $mime := cond (eq $ext ".ogg") "audio/ogg" (cond (eq $ext ".wav") "audio/wav" "audio/mpeg") -}}
 
-  <figure class="audio-card{{ if $cover }} has-cover{{ end }}" {{ if $cover }}style="--cover-url: url('{{ $cover | absURL | safeURL }}');"{{ end }}>
+  <figure class="audio-card">
     <div class="audio-card__content">
       <div class="audio-card__media">
         {{- if $cover -}}

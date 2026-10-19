@@ -5,6 +5,8 @@ theme = "PaperMod"
 
 # 开启基础功能
 [params]
+    #开启图标
+    customCSS = ["css/custom.css"]
     author = "你的名字"
     description = "记录我的技术与生活"
     ShowReadingTime = true       
@@ -20,8 +22,7 @@ theme = "PaperMod"
 
     # 开启搜索
     ShowSearch = true
-    #开启图标
-    customCSS = ["css/custom.css"]
+    
 # 社交图标
 [[params.socialIcons]]
     name = "github"

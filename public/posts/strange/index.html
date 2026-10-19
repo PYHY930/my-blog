@@ -149,7 +149,39 @@
   <div class="post-content md-content"><audio controls>
   <source src="/audio/Let me think about it.mp3" type="audio/mpeg">
 </audio>
-<figure class="audio-card has-cover" style="--cover-url: url('http://localhost:1313/images/111.jpg');">
+<style>
+.audio-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
+}
+.audio-card__media {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.audio-card__media img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.audio-card__title {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
+}
+.audio-card__artist {
+  color: var(--secondary);
+  font-size: 0.9em;
+}
+.audio-card__player {
+  width: 100%;
+}
+</style><figure class="audio-card">
     <div class="audio-card__content">
       <div class="audio-card__media"><img src="http://localhost:1313/images/111.jpg" alt="Cover art for Умри, если меня не любишь" loading="lazy" /><div class="audio-card__meta"><div class="audio-card__title">Умри, если меня не любишь</div><div class="audio-card__artist">不知道</div>
         </div>

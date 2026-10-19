@@ -80,7 +80,39 @@ oiiiiiiiiiiiiiiii&lt;/p&gt;</description>
       <description>&lt;audio controls&gt;
   &lt;source src=&#34;http://localhost:1313/audio/Let me think about it.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
-&lt;figure class=&#34;audio-card has-cover&#34; style=&#34;--cover-url: url(&#39;http://localhost:1313/images/111.jpg&#39;);&#34;&gt;
+&lt;style&gt;
+.audio-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
+}
+.audio-card__media {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.audio-card__media img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.audio-card__title {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
+}
+.audio-card__artist {
+  color: var(--secondary);
+  font-size: 0.9em;
+}
+.audio-card__player {
+  width: 100%;
+}
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
       &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/111.jpg&#34; alt=&#34;Cover art for Умри, если меня не любишь&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Умри, если меня не любишь&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;不知道&lt;/div&gt;
         &lt;/div&gt;
