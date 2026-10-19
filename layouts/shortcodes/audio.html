@@ -1,0 +1,28 @@
+{{- $src := .Get "src" -}}
+{{- if not $src -}}
+  <p><em>Audio "src" is required.</em></p>
+{{- else -}}
+  {{- $title := .Get "title" | default "" -}}
+  {{- $artist := .Get "artist" | default "" -}}
+  {{- $cover := .Get "cover" | default "" -}}
+  {{- $ext := lower (path.Ext $src) -}}
+  {{- $mime := cond (eq $ext ".ogg") "audio/ogg" (cond (eq $ext ".wav") "audio/wav" "audio/mpeg") -}}
+
+  <figure class="audio-card{{ if $cover }} has-cover{{ end }}" {{ if $cover }}style="--cover-url: url('{{ $cover | absURL | safeURL }}');"{{ end }}>
+    <div class="audio-card__content">
+      <div class="audio-card__media">
+        {{- if $cover -}}
+          <img src="{{ $cover | absURL | safeURL }}" alt="Cover art for {{ $title }}" loading="lazy" />
+        {{- end -}}
+        <div class="audio-card__meta">
+          {{- if $title }}<div class="audio-card__title">{{ $title }}</div>{{- end }}
+          {{- if $artist }}<div class="audio-card__artist">{{ $artist }}</div>{{- end }}
+        </div>
+      </div>
+      <audio class="audio-card__player" controls preload="metadata">
+        <source src="{{ $src | absURL | safeURL }}" type="{{ $mime }}" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </figure>
+{{- end -}}
