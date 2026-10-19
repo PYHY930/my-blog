@@ -2,7 +2,7 @@
   "name": "my-blog",
   "compatibility_date": "2026-10-19",
   "build": {
-    "command": "hugo --gc --minify"
+    "command": "chmod +x build.sh && ./build.sh"
   },
   "assets": {
     "directory": "./public",
