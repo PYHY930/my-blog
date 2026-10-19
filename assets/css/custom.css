@@ -1,3 +1,4 @@
+/* 音频卡片整体外框 */
 .audio-card {
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -6,6 +7,7 @@
   background: var(--entry);
 }
 
+/* 封面图和文字信息的横向排版 */
 .audio-card__media {
   display: flex;
   align-items: center;
@@ -13,23 +15,28 @@
   margin-bottom: 12px;
 }
 
+/* 封面图的大小和圆角 */
 .audio-card__media img {
   width: 80px;
   height: 80px;
   border-radius: 8px;
-  object-fit: cover;
+  object-fit: cover; /* 保证图片不被拉伸变形 */
 }
 
+/* 歌名的样式 */
 .audio-card__title {
   font-weight: bold;
   font-size: 1.1em;
+  margin-bottom: 4px; /* 和歌手名字稍微隔开一点 */
 }
 
+/* 歌手名字的样式 */
 .audio-card__artist {
   color: var(--secondary);
   font-size: 0.9em;
 }
 
+/* 播放条占满整个卡片宽度 */
 .audio-card__player {
   width: 100%;
 }
