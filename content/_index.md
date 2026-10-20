@@ -89,7 +89,7 @@ layout: "single"
         <h2>音乐</h2>
         <p>分享我喜欢的旋律</p>
     </a>
-    <a href="/games/" class="nav-card">
+    <a href="/games/game/" class="nav-card">
         <div class="icon">🎮</div>
         <h2>游戏</h2>
         <p>把玩一下我制作的交互作品</p>
