@@ -79,17 +79,17 @@ layout: "single"
 </style>
 
 <div class="home-grid">
-    <a href="/posts/posts/" class="nav-card">
+    <a href="/posts/" class="nav-card">
         <div class="icon">📝</div>
         <h2>文章</h2>
         <p>记录技术与生活的点滴</p>
     </a>
-    <a href="/music/music/" class="nav-card">
+    <a href="/music/" class="nav-card">
         <div class="icon">🎵</div>
         <h2>音乐</h2>
         <p>分享我喜欢的旋律</p>
     </a>
-    <a href="/games/game/" class="nav-card">
+    <a href="/games/" class="nav-card">
         <div class="icon">🎮</div>
         <h2>游戏</h2>
         <p>把玩一下我制作的交互作品</p>
