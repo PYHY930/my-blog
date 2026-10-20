@@ -1,563 +1,585 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on 我的博客</title><link>https://pkthomas.dpdns.org/posts/</link><description>Recent content in Posts on 我的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 19 Oct 2026 14:02:49 +0800</lastBuildDate><atom:link href="https://pkthomas.dpdns.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Music</title><link>https://pkthomas.dpdns.org/posts/strange/</link><pubDate>Mon, 19 Oct 2026 14:02:49 +0800</pubDate><guid>https://pkthomas.dpdns.org/posts/strange/</guid><description>&lt;/audio&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 我的博客</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on 我的博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 19 Oct 2026 14:02:49 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music</title>
+      <link>http://localhost:1313/posts/strange/</link>
+      <pubDate>Mon, 19 Oct 2026 14:02:49 +0800</pubDate>
+      <guid>http://localhost:1313/posts/strange/</guid>
+      <description>&lt;/audio&gt;
 &lt;style&gt;
 .audio-card {
-border: 1px solid var(--border);
-border-radius: 12px;
-padding: 16px;
-margin: 20px 0;
-background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
 }
 .audio-card__media {
-display: flex;
-align-items: center;
-gap: 16px;
-margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 .audio-card__media img {
-width: 80px;
-height: 80px;
-border-radius: 8px;
-object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .audio-card__title {
-font-weight: bold;
-font-size: 1.1em;
-margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
 .audio-card__artist {
-color: var(--secondary);
-font-size: 0.9em;
+  color: var(--secondary);
+  font-size: 0.9em;
 }
 .audio-card__player {
-width: 100%;
+  width: 100%;
 }
-&lt;/style&gt;&lt;figure class="audio-card"&gt;
-&lt;div class="audio-card__content"&gt;
-&lt;div class="audio-card__media"&gt;&lt;img src="https://pkthomas.dpdns.org/images/111.jpg" alt="Cover art for Умри, если меня не любишь" loading="lazy" /&gt;&lt;div class="audio-card__meta"&gt;&lt;div class="audio-card__title"&gt;Умри, если меня не любишь&lt;/div&gt;&lt;div class="audio-card__artist"&gt;不知道&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;audio class="audio-card__player" controls preload="metadata"&gt;
-&lt;source src="https://pkthomas.dpdns.org/audio/%D0%A3%D0%BC%D1%80%D0%B8,%20%D0%B5%D1%81%D0%BB%D0%B8%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%BD%D0%B5%20%D0%BB%D1%8E%D0%B1%D0%B8%D1%88%D1%8C.mp3" type="audio/mpeg" /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
+    &lt;div class=&#34;audio-card__content&#34;&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/111.jpg&#34; alt=&#34;Cover art for Умри, если меня не любишь&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Умри, если меня не любишь&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;不知道&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
+        &lt;source src=&#34;http://localhost:1313/audio/%D0%A3%D0%BC%D1%80%D0%B8,%20%D0%B5%D1%81%D0%BB%D0%B8%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%BD%D0%B5%20%D0%BB%D1%8E%D0%B1%D0%B8%D1%88%D1%8C.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
+    &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;style&gt;
 .audio-card {
-border: 1px solid var(--border);
-border-radius: 12px;
-padding: 16px;
-margin: 20px 0;
-background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
 }
 .audio-card__media {
-display: flex;
-align-items: center;
-gap: 16px;
-margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 .audio-card__media img {
-width: 80px;
-height: 80px;
-border-radius: 8px;
-object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .audio-card__title {
-font-weight: bold;
-font-size: 1.1em;
-margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
 .audio-card__artist {
-color: var(--secondary);
-font-size: 0.9em;
+  color: var(--secondary);
+  font-size: 0.9em;
 }
 .audio-card__player {
-width: 100%;
+  width: 100%;
 }
-&lt;/style&gt;&lt;figure class="audio-card"&gt;
-&lt;div class="audio-card__content"&gt;
-&lt;div class="audio-card__media"&gt;&lt;img src="https://pkthomas.dpdns.org/images/222.jpg" alt="Cover art for Umbrella" loading="lazy" /&gt;&lt;div class="audio-card__meta"&gt;&lt;div class="audio-card__title"&gt;Umbrella&lt;/div&gt;&lt;div class="audio-card__artist"&gt;Ember Island -Matte&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;audio class="audio-card__player" controls preload="metadata"&gt;
-&lt;source src="https://pkthomas.dpdns.org/audio/Umbrella%20%28Matte%20Remix%29.mp3" type="audio/mpeg" /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
+    &lt;div class=&#34;audio-card__content&#34;&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/222.jpg&#34; alt=&#34;Cover art for Umbrella&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Umbrella&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;Ember Island -Matte&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
+        &lt;source src=&#34;http://localhost:1313/audio/Umbrella%20%28Matte%20Remix%29.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
+    &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;style&gt;
 .audio-card {
-border: 1px solid var(--border);
-border-radius: 12px;
-padding: 16px;
-margin: 20px 0;
-background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
 }
 .audio-card__media {
-display: flex;
-align-items: center;
-gap: 16px;
-margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 .audio-card__media img {
-width: 80px;
-height: 80px;
-border-radius: 8px;
-object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .audio-card__title {
-font-weight: bold;
-font-size: 1.1em;
-margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
 .audio-card__artist {
-color: var(--secondary);
-font-size: 0.9em;
+  color: var(--secondary);
+  font-size: 0.9em;
 }
 .audio-card__player {
-width: 100%;
+  width: 100%;
 }
-&lt;/style&gt;&lt;figure class="audio-card"&gt;
-&lt;div class="audio-card__content"&gt;
-&lt;div class="audio-card__media"&gt;&lt;img src="https://pkthomas.dpdns.org/images/333.jpg" alt="Cover art for LOSER" loading="lazy" /&gt;&lt;div class="audio-card__meta"&gt;&lt;div class="audio-card__title"&gt;LOSER&lt;/div&gt;&lt;div class="audio-card__artist"&gt;米津玄師&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;audio class="audio-card__player" controls preload="metadata"&gt;
-&lt;source src="https://pkthomas.dpdns.org/audio/LOSER.mp3" type="audio/mpeg" /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
+    &lt;div class=&#34;audio-card__content&#34;&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/333.jpg&#34; alt=&#34;Cover art for LOSER&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;LOSER&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;米津玄師&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
+        &lt;source src=&#34;http://localhost:1313/audio/LOSER.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
+    &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;style&gt;
 .audio-card {
-border: 1px solid var(--border);
-border-radius: 12px;
-padding: 16px;
-margin: 20px 0;
-background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
 }
 .audio-card__media {
-display: flex;
-align-items: center;
-gap: 16px;
-margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 .audio-card__media img {
-width: 80px;
-height: 80px;
-border-radius: 8px;
-object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .audio-card__title {
-font-weight: bold;
-font-size: 1.1em;
-margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
 .audio-card__artist {
-color: var(--secondary);
-font-size: 0.9em;
+  color: var(--secondary);
+  font-size: 0.9em;
 }
 .audio-card__player {
-width: 100%;
+  width: 100%;
 }
-&lt;/style&gt;&lt;figure class="audio-card"&gt;
-&lt;div class="audio-card__content"&gt;
-&lt;div class="audio-card__media"&gt;&lt;img src="https://pkthomas.dpdns.org/images/444.jpg" alt="Cover art for Look up to the stars" loading="lazy" /&gt;&lt;div class="audio-card__meta"&gt;&lt;div class="audio-card__title"&gt;Look up to the stars&lt;/div&gt;&lt;div class="audio-card__artist"&gt;未知&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;audio class="audio-card__player" controls preload="metadata"&gt;
-&lt;source src="https://pkthomas.dpdns.org/audio/Look%20up%20to%20the%20stars.mp3" type="audio/mpeg" /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
+    &lt;div class=&#34;audio-card__content&#34;&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/444.jpg&#34; alt=&#34;Cover art for Look up to the stars&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Look up to the stars&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;未知&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
+        &lt;source src=&#34;http://localhost:1313/audio/Look%20up%20to%20the%20stars.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
+    &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;style&gt;
 .audio-card {
-border: 1px solid var(--border);
-border-radius: 12px;
-padding: 16px;
-margin: 20px 0;
-background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
 }
 .audio-card__media {
-display: flex;
-align-items: center;
-gap: 16px;
-margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 .audio-card__media img {
-width: 80px;
-height: 80px;
-border-radius: 8px;
-object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .audio-card__title {
-font-weight: bold;
-font-size: 1.1em;
-margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
 .audio-card__artist {
-color: var(--secondary);
-font-size: 0.9em;
+  color: var(--secondary);
+  font-size: 0.9em;
 }
 .audio-card__player {
-width: 100%;
+  width: 100%;
 }
-&lt;/style&gt;&lt;figure class="audio-card"&gt;
-&lt;div class="audio-card__content"&gt;
-&lt;div class="audio-card__media"&gt;&lt;img src="https://pkthomas.dpdns.org/images/111.jpg" alt="Cover art for Monsters" loading="lazy" /&gt;&lt;div class="audio-card__meta"&gt;&lt;div class="audio-card__title"&gt;Monsters&lt;/div&gt;&lt;div class="audio-card__artist"&gt;Katie Sky&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;audio class="audio-card__player" controls preload="metadata"&gt;
-&lt;source src="https://pkthomas.dpdns.org/audio/Monsters.mp3" type="audio/mpeg" /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
+    &lt;div class=&#34;audio-card__content&#34;&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/111.jpg&#34; alt=&#34;Cover art for Monsters&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Monsters&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;Katie Sky&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
+        &lt;source src=&#34;http://localhost:1313/audio/Monsters.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
+    &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;style&gt;
 .audio-card {
-border: 1px solid var(--border);
-border-radius: 12px;
-padding: 16px;
-margin: 20px 0;
-background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
 }
 .audio-card__media {
-display: flex;
-align-items: center;
-gap: 16px;
-margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 .audio-card__media img {
-width: 80px;
-height: 80px;
-border-radius: 8px;
-object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .audio-card__title {
-font-weight: bold;
-font-size: 1.1em;
-margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
 .audio-card__artist {
-color: var(--secondary);
-font-size: 0.9em;
+  color: var(--secondary);
+  font-size: 0.9em;
 }
 .audio-card__player {
-width: 100%;
+  width: 100%;
 }
-&lt;/style&gt;&lt;figure class="audio-card"&gt;
-&lt;div class="audio-card__content"&gt;
-&lt;div class="audio-card__media"&gt;&lt;img src="https://pkthomas.dpdns.org/images/222.jpg" alt="Cover art for Fly to the moon" loading="lazy" /&gt;&lt;div class="audio-card__meta"&gt;&lt;div class="audio-card__title"&gt;Fly to the moon&lt;/div&gt;&lt;div class="audio-card__artist"&gt;未知&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;audio class="audio-card__player" controls preload="metadata"&gt;
-&lt;source src="https://pkthomas.dpdns.org/audio/Fly%20to%20the%20moon.mp3" type="audio/mpeg" /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
+    &lt;div class=&#34;audio-card__content&#34;&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/222.jpg&#34; alt=&#34;Cover art for Fly to the moon&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Fly to the moon&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;未知&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
+        &lt;source src=&#34;http://localhost:1313/audio/Fly%20to%20the%20moon.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
+    &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;style&gt;
 .audio-card {
-border: 1px solid var(--border);
-border-radius: 12px;
-padding: 16px;
-margin: 20px 0;
-background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
 }
 .audio-card__media {
-display: flex;
-align-items: center;
-gap: 16px;
-margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 .audio-card__media img {
-width: 80px;
-height: 80px;
-border-radius: 8px;
-object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .audio-card__title {
-font-weight: bold;
-font-size: 1.1em;
-margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
 .audio-card__artist {
-color: var(--secondary);
-font-size: 0.9em;
+  color: var(--secondary);
+  font-size: 0.9em;
 }
 .audio-card__player {
-width: 100%;
+  width: 100%;
 }
-&lt;/style&gt;&lt;figure class="audio-card"&gt;
-&lt;div class="audio-card__content"&gt;
-&lt;div class="audio-card__media"&gt;&lt;img src="https://pkthomas.dpdns.org/images/333.jpg" alt="Cover art for His theme" loading="lazy" /&gt;&lt;div class="audio-card__meta"&gt;&lt;div class="audio-card__title"&gt;His theme&lt;/div&gt;&lt;div class="audio-card__artist"&gt;未知&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;audio class="audio-card__player" controls preload="metadata"&gt;
-&lt;source src="https://pkthomas.dpdns.org/audio/His%20theme.mp3" type="audio/mpeg" /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
+    &lt;div class=&#34;audio-card__content&#34;&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/333.jpg&#34; alt=&#34;Cover art for His theme&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;His theme&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;未知&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
+        &lt;source src=&#34;http://localhost:1313/audio/His%20theme.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
+    &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;style&gt;
 .audio-card {
-border: 1px solid var(--border);
-border-radius: 12px;
-padding: 16px;
-margin: 20px 0;
-background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
 }
 .audio-card__media {
-display: flex;
-align-items: center;
-gap: 16px;
-margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 .audio-card__media img {
-width: 80px;
-height: 80px;
-border-radius: 8px;
-object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .audio-card__title {
-font-weight: bold;
-font-size: 1.1em;
-margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
 .audio-card__artist {
-color: var(--secondary);
-font-size: 0.9em;
+  color: var(--secondary);
+  font-size: 0.9em;
 }
 .audio-card__player {
-width: 100%;
+  width: 100%;
 }
-&lt;/style&gt;&lt;figure class="audio-card"&gt;
-&lt;div class="audio-card__content"&gt;
-&lt;div class="audio-card__media"&gt;&lt;img src="https://pkthomas.dpdns.org/images/444.jpg" alt="Cover art for 光年之外" loading="lazy" /&gt;&lt;div class="audio-card__meta"&gt;&lt;div class="audio-card__title"&gt;光年之外&lt;/div&gt;&lt;div class="audio-card__artist"&gt;G.E.M.邓紫棋&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;audio class="audio-card__player" controls preload="metadata"&gt;
-&lt;source src="https://pkthomas.dpdns.org/audio/%E5%85%89%E5%B9%B4%E4%B9%8B%E5%A4%96.mp3" type="audio/mpeg" /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
+    &lt;div class=&#34;audio-card__content&#34;&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/444.jpg&#34; alt=&#34;Cover art for 光年之外&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;光年之外&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;G.E.M.邓紫棋&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
+        &lt;source src=&#34;http://localhost:1313/audio/%E5%85%89%E5%B9%B4%E4%B9%8B%E5%A4%96.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
+    &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;style&gt;
 .audio-card {
-border: 1px solid var(--border);
-border-radius: 12px;
-padding: 16px;
-margin: 20px 0;
-background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
 }
 .audio-card__media {
-display: flex;
-align-items: center;
-gap: 16px;
-margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 .audio-card__media img {
-width: 80px;
-height: 80px;
-border-radius: 8px;
-object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .audio-card__title {
-font-weight: bold;
-font-size: 1.1em;
-margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
 .audio-card__artist {
-color: var(--secondary);
-font-size: 0.9em;
+  color: var(--secondary);
+  font-size: 0.9em;
 }
 .audio-card__player {
-width: 100%;
+  width: 100%;
 }
-&lt;/style&gt;&lt;figure class="audio-card"&gt;
-&lt;div class="audio-card__content"&gt;
-&lt;div class="audio-card__media"&gt;&lt;img src="https://pkthomas.dpdns.org/images/111.jpg" alt="Cover art for Bad Guy" loading="lazy" /&gt;&lt;div class="audio-card__meta"&gt;&lt;div class="audio-card__title"&gt;Bad Guy&lt;/div&gt;&lt;div class="audio-card__artist"&gt;Billie Eilish&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;audio class="audio-card__player" controls preload="metadata"&gt;
-&lt;source src="https://pkthomas.dpdns.org/audio/bad%20guy.mp3" type="audio/mpeg" /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
+    &lt;div class=&#34;audio-card__content&#34;&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/111.jpg&#34; alt=&#34;Cover art for Bad Guy&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Bad Guy&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;Billie Eilish&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
+        &lt;source src=&#34;http://localhost:1313/audio/bad%20guy.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
+    &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;style&gt;
 .audio-card {
-border: 1px solid var(--border);
-border-radius: 12px;
-padding: 16px;
-margin: 20px 0;
-background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
 }
 .audio-card__media {
-display: flex;
-align-items: center;
-gap: 16px;
-margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 .audio-card__media img {
-width: 80px;
-height: 80px;
-border-radius: 8px;
-object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .audio-card__title {
-font-weight: bold;
-font-size: 1.1em;
-margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
 .audio-card__artist {
-color: var(--secondary);
-font-size: 0.9em;
+  color: var(--secondary);
+  font-size: 0.9em;
 }
 .audio-card__player {
-width: 100%;
+  width: 100%;
 }
-&lt;/style&gt;&lt;figure class="audio-card"&gt;
-&lt;div class="audio-card__content"&gt;
-&lt;div class="audio-card__media"&gt;&lt;img src="https://pkthomas.dpdns.org/images/222.jpg" alt="Cover art for Counting Stars" loading="lazy" /&gt;&lt;div class="audio-card__meta"&gt;&lt;div class="audio-card__title"&gt;Counting Stars&lt;/div&gt;&lt;div class="audio-card__artist"&gt;OneRepublic&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;audio class="audio-card__player" controls preload="metadata"&gt;
-&lt;source src="https://pkthomas.dpdns.org/audio/Counting%20Stars.mp3" type="audio/mpeg" /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
+    &lt;div class=&#34;audio-card__content&#34;&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/222.jpg&#34; alt=&#34;Cover art for Counting Stars&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Counting Stars&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;OneRepublic&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
+        &lt;source src=&#34;http://localhost:1313/audio/Counting%20Stars.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
+    &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;style&gt;
 .audio-card {
-border: 1px solid var(--border);
-border-radius: 12px;
-padding: 16px;
-margin: 20px 0;
-background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
 }
 .audio-card__media {
-display: flex;
-align-items: center;
-gap: 16px;
-margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 .audio-card__media img {
-width: 80px;
-height: 80px;
-border-radius: 8px;
-object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .audio-card__title {
-font-weight: bold;
-font-size: 1.1em;
-margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
 .audio-card__artist {
-color: var(--secondary);
-font-size: 0.9em;
+  color: var(--secondary);
+  font-size: 0.9em;
 }
 .audio-card__player {
-width: 100%;
+  width: 100%;
 }
-&lt;/style&gt;&lt;figure class="audio-card"&gt;
-&lt;div class="audio-card__content"&gt;
-&lt;div class="audio-card__media"&gt;&lt;img src="https://pkthomas.dpdns.org/images/333.jpg" alt="Cover art for Faded" loading="lazy" /&gt;&lt;div class="audio-card__meta"&gt;&lt;div class="audio-card__title"&gt;Faded&lt;/div&gt;&lt;div class="audio-card__artist"&gt;Alan Walker&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;audio class="audio-card__player" controls preload="metadata"&gt;
-&lt;source src="https://pkthomas.dpdns.org/audio/Faded.mp3" type="audio/mpeg" /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
+    &lt;div class=&#34;audio-card__content&#34;&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/333.jpg&#34; alt=&#34;Cover art for Faded&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Faded&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;Alan Walker&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
+        &lt;source src=&#34;http://localhost:1313/audio/Faded.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
+    &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;style&gt;
 .audio-card {
-border: 1px solid var(--border);
-border-radius: 12px;
-padding: 16px;
-margin: 20px 0;
-background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
 }
 .audio-card__media {
-display: flex;
-align-items: center;
-gap: 16px;
-margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 .audio-card__media img {
-width: 80px;
-height: 80px;
-border-radius: 8px;
-object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .audio-card__title {
-font-weight: bold;
-font-size: 1.1em;
-margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
 .audio-card__artist {
-color: var(--secondary);
-font-size: 0.9em;
+  color: var(--secondary);
+  font-size: 0.9em;
 }
 .audio-card__player {
-width: 100%;
+  width: 100%;
 }
-&lt;/style&gt;&lt;figure class="audio-card"&gt;
-&lt;div class="audio-card__content"&gt;
-&lt;div class="audio-card__media"&gt;&lt;img src="https://pkthomas.dpdns.org/images/444.jpg" alt="Cover art for 我在5：20睡觉13：14准时起" loading="lazy" /&gt;&lt;div class="audio-card__meta"&gt;&lt;div class="audio-card__title"&gt;我在5：20睡觉13：14准时起&lt;/div&gt;&lt;div class="audio-card__artist"&gt;刀酱&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;audio class="audio-card__player" controls preload="metadata"&gt;
-&lt;source src="https://pkthomas.dpdns.org/audio/%E6%88%91%E5%9C%A85%EF%BC%9A20%E7%9D%A1%E8%A7%8913%EF%BC%9A14%E5%87%86%E6%97%B6%E8%B5%B7.mp3" type="audio/mpeg" /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
+    &lt;div class=&#34;audio-card__content&#34;&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/444.jpg&#34; alt=&#34;Cover art for 我在5：20睡觉13：14准时起&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;我在5：20睡觉13：14准时起&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;刀酱&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
+        &lt;source src=&#34;http://localhost:1313/audio/%E6%88%91%E5%9C%A85%EF%BC%9A20%E7%9D%A1%E8%A7%8913%EF%BC%9A14%E5%87%86%E6%97%B6%E8%B5%B7.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
+    &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;style&gt;
 .audio-card {
-border: 1px solid var(--border);
-border-radius: 12px;
-padding: 16px;
-margin: 20px 0;
-background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  background: var(--entry);
 }
 .audio-card__media {
-display: flex;
-align-items: center;
-gap: 16px;
-margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
 }
 .audio-card__media img {
-width: 80px;
-height: 80px;
-border-radius: 8px;
-object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .audio-card__title {
-font-weight: bold;
-font-size: 1.1em;
-margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
 }
 .audio-card__artist {
-color: var(--secondary);
-font-size: 0.9em;
+  color: var(--secondary);
+  font-size: 0.9em;
 }
 .audio-card__player {
-width: 100%;
+  width: 100%;
 }
-&lt;/style&gt;&lt;figure class="audio-card"&gt;
-&lt;div class="audio-card__content"&gt;
-&lt;div class="audio-card__media"&gt;&lt;img src="https://pkthomas.dpdns.org/images/111.jpg" alt="Cover art for 打上花火" loading="lazy" /&gt;&lt;div class="audio-card__meta"&gt;&lt;div class="audio-card__title"&gt;打上花火&lt;/div&gt;&lt;div class="audio-card__artist"&gt;DAOKO&amp;amp;米津玄師&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;audio class="audio-card__player" controls preload="metadata"&gt;
-&lt;source src="https://pkthomas.dpdns.org/audio/%E6%89%93%E4%B8%8A%E8%8A%B1%E7%81%AB.mp3" type="audio/mpeg" /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;/div&gt;
-&lt;/figure&gt;</description></item><item><title>My First Post</title><link>https://pkthomas.dpdns.org/posts/my-first-post/</link><pubDate>Mon, 19 Oct 2026 14:02:49 +0800</pubDate><guid>https://pkthomas.dpdns.org/posts/my-first-post/</guid><description>&lt;p&gt;以下是测试内容！&lt;/p&gt;
+&lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
+    &lt;div class=&#34;audio-card__content&#34;&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/111.jpg&#34; alt=&#34;Cover art for 打上花火&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;打上花火&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;DAOKO&amp;amp;米津玄師&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
+        &lt;source src=&#34;http://localhost:1313/audio/%E6%89%93%E4%B8%8A%E8%8A%B1%E7%81%AB.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
+    &lt;/div&gt;
+  &lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Mon, 19 Oct 2026 14:02:49 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;以下是测试内容！&lt;/p&gt;
 &lt;p&gt;那是我日夜思念深深爱着的人啊
 到底我该如何表达
 她会接受我吗&lt;/p&gt;
@@ -614,11 +636,21 @@ Your browser does not support the audio element.
 这里的故事你是否还记得&lt;/p&gt;
 &lt;p&gt;如果有明天
 祝福你亲爱的
-&lt;img alt="大肥鱼" loading="lazy" src="https://pkthomas.dpdns.org/images/111.jpg"&gt;
-oiiiiiiiiiiiiiiii&lt;/p&gt;</description></item><item><title>俄罗斯方块</title><link>https://pkthomas.dpdns.org/posts/game/</link><pubDate>Mon, 19 Oct 2026 14:02:49 +0800</pubDate><guid>https://pkthomas.dpdns.org/posts/game/</guid><description>&lt;p&gt;来玩一下我制作的俄罗斯方块：&lt;/p&gt;
-&lt;iframe
-src="https://pkthomas.dpdns.org/games/tetris/index.html"
-width="100%"
-height="700px"
-style="border: none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"&gt;
-&lt;/iframe&gt;</description></item></channel></rss>
+&lt;img alt=&#34;大肥鱼&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/111.jpg&#34;&gt;
+oiiiiiiiiiiiiiiii&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>俄罗斯方块</title>
+      <link>http://localhost:1313/posts/game/</link>
+      <pubDate>Mon, 19 Oct 2026 14:02:49 +0800</pubDate>
+      <guid>http://localhost:1313/posts/game/</guid>
+      <description>&lt;p&gt;来玩一下我制作的俄罗斯方块：&lt;/p&gt;
+&lt;iframe 
+    src=&#34;http://localhost:1313/games/tetris/index.html&#34; 
+    width=&#34;100%&#34; 
+    height=&#34;700px&#34; 
+    style=&#34;border: none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);&#34;&gt;
+&lt;/iframe&gt;</description>
+    </item>
+  </channel>
+</rss>
