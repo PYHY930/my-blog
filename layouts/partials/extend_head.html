@@ -1,0 +1,89 @@
+<!-- 引入自定义 CSS -->
+{{ $custom_css := resources.Get "css/custom.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $custom_css.RelPermalink }}" integrity="{{ $custom_css.Data.Integrity }}">
+
+<style>
+/* =========================================
+   1. 极光动态背景 (保持不变)
+========================================= */
+body {
+    background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1a1a2e);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    background-attachment: fixed;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* =========================================
+   2. 列表卡片保留毛玻璃 (保持不变)
+========================================= */
+.post-entry, .profile {
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-entry:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* =========================================
+   3. 终极改造：去掉文章/游戏单页的外边框
+========================================= */
+.post-single {
+    background: transparent !important; /* 背景全透明 */
+    border: none !important;            /* 去掉边框 */
+    box-shadow: none !important;        /* 去掉阴影 */
+    padding: 0 !important;              /* 去掉多余的内边距 */
+    backdrop-filter: none !important;   /* 移除毛玻璃 */
+    -webkit-backdrop-filter: none !important;
+}
+
+/* 顺便把底部的分享按钮也隐藏掉，让页面更干净 */
+.post-footer {
+    display: none !important;
+}
+
+/* 如果你觉得顶部的面包屑（Home > 游戏）也多余，可以把下面这行取消注释 */
+/*
+.breadcrumbs {
+    display: none !important;
+}
+*/
+
+/* =========================================
+   4. 导航栏毛玻璃 (保持不变)
+========================================= */
+.header {
+    background: rgba(15, 32, 39, 0.7) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* =========================================
+   5. 亮色模式兼容
+========================================= */
+:root:not([data-theme="dark"]) body {
+    background: linear-gradient(-45deg, #e0eafc, #cfdef3, #f5f7fa, #c3cfe2);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    background-attachment: fixed;
+}
+:root:not([data-theme="dark"]) .post-entry, 
+:root:not([data-theme="dark"]) .profile,
+:root:not([data-theme="dark"]) .header {
+    background: rgba(255, 255, 255, 0.6) !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+}
+</style>

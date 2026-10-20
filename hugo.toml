@@ -17,33 +17,37 @@ theme = "PaperMod"
     
     # 首页个人卡片
     [params.homeInfoParams]
-        Title = "你好，我是 [P.K.Thomas] 👋"
-        Content = "欢迎来到我的数字花园。"
-
+        
     # 开启搜索
     ShowSearch = true
     
 # 社交图标
-[[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/你的GitHub用户名"
+#[[params.socialIcons]]
+#    name = "github"
+#    url = "https://github.com/你的GitHub用户名"
 
-[[params.socialIcons]]
-    name = "mail"
-    url = "mailto:你的邮箱@example.com"
+#[[params.socialIcons]]
+#    name = "mail"
+#   url = "mailto:你的邮箱@example.com"
 
 # 导航栏菜单
 [[menu.main]]
-    identifier = "about"
-    name = "关于"
-    url = "/about/"
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
     weight = 10
 
 [[menu.main]]
-    identifier = "search"
-    name = "搜索"
-    url = "/search/"
+    identifier = "music"
+    name = "音乐"
+    url = "/music/"
     weight = 20
+
+[[menu.main]]
+    identifier = "games"
+    name = "游戏"
+    url = "/games/"
+    weight = 30
 
 # 搜索功能的输出格式
 [outputs]
