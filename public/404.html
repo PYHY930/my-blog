@@ -65,6 +65,80 @@
     }
 
 </script>
+
+<link rel="stylesheet" href="/css/custom.min.4f7a74292636cd1c05467a76e8a7322af80777d536bfb7d156438b832c1acc88.css" integrity="sha256-T3p0KSY2zRwFRnp26KcyKvgHd9U2v7fRVkOLgywazIg=">
+
+<style>
+ 
+body {
+    background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1a1a2e);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    background-attachment: fixed;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+ 
+.post-entry, .profile {
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-entry:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+ 
+.post-single {
+    background: transparent !important;  
+    border: none !important;             
+    box-shadow: none !important;         
+    padding: 0 !important;               
+    backdrop-filter: none !important;    
+    -webkit-backdrop-filter: none !important;
+}
+
+ 
+.post-footer {
+    display: none !important;
+}
+
+ 
+ 
+
+ 
+.header {
+    background: rgba(15, 32, 39, 0.7) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+ 
+:root:not([data-theme="dark"]) body {
+    background: linear-gradient(-45deg, #e0eafc, #cfdef3, #f5f7fa, #c3cfe2);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    background-attachment: fixed;
+}
+:root:not([data-theme="dark"]) .post-entry, 
+:root:not([data-theme="dark"]) .profile,
+:root:not([data-theme="dark"]) .header {
+    background: rgba(255, 255, 255, 0.6) !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+}
+</style>
 </head>
 <body class="list" id="top">
     <header class="header">
