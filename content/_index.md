@@ -3,15 +3,16 @@ title: "Home"
 layout: "list"
 ---
 
-<!-- 触发按钮 -->
-<div style="text-align: center; margin: 30px 0;">
-    <button id="danger-btn" style="padding: 10px 20px; font-size: 16px; background-color: #333; color: white; border: 2px solid #ff3333; border-radius: 8px; cursor: pointer; transition: 0.3s; box-shadow: 0 0 10px rgba(255, 51, 51, 0.5);">
+<!-- 极其隐蔽的触发文字（靠右对齐，暗灰色小字） -->
+<div style="text-align: right; margin: 50px 20px 20px 0;">
+    <button id="danger-btn" style="background: transparent; border: none; color: #555; font-size: 12px; cursor: pointer; outline: none; transition: color 0.3s;" onmouseover="this.style.color='#ff3333'" onmouseout="this.style.color='#555'">
         别点我
     </button>
 </div>
 
 <!-- 彩蛋全屏遮罩层 (默认隐藏) -->
 <div id="missile-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.95); z-index: 9999; justify-content: center; align-items: center; flex-direction: column;">
+    <!-- 注意：如果图片是 jpg 结尾，请把这里的 png 改成 jpg -->
     <img src="/images/missile.jpg" alt="敌导弹" style="max-width: 80vw; max-height: 70vh; animation: pulse 1s infinite alternate;">
     <p style="color: #00ff00; font-size: 20px; font-family: monospace; margin-top: 20px; text-shadow: 0 0 10px #00ff00; text-align: center;">⚠️ WARNING: MISSILE INBOUND ⚠️</p>
     <button id="close-btn" style="margin-top: 20px; padding: 8px 16px; background: #333; color: #fff; border: 2px solid #fff; cursor: pointer; border-radius: 5px;">解除警报</button>
@@ -33,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const closeBtn = document.getElementById('close-btn');
     let clickTimes = []; // 记录点击的时间戳
 
-    // 点击按钮的逻辑
+    // 点击逻辑
     btn.addEventListener('click', function() {
         const now = Date.now();
         clickTimes.push(now);
@@ -50,9 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // 触发彩蛋
     function triggerMissile() {
-        // 显示遮罩和图片
         modal.style.display = 'flex';
-        // 播放警报声
         playSiren();
     }
 
@@ -61,30 +60,27 @@ document.addEventListener("DOMContentLoaded", function() {
         modal.style.display = 'none';
     });
 
-    // 使用 Web Audio API 合成警报声（无需下载音频文件）
+    // 使用 Web Audio API 合成警报声
     function playSiren() {
         try {
             const AudioContext = window.AudioContext || window.webkitAudioContext;
             const ctx = new AudioContext();
             
-            // 创建两个振荡器，制造“滴——嘟——”的防空警报效果
             const osc1 = ctx.createOscillator();
             const osc2 = ctx.createOscillator();
             const gainNode = ctx.createGain();
 
-            // 声音设置
             osc1.type = 'sawtooth';
             osc2.type = 'square';
             
-            // 音量淡入，避免太突兀
             gainNode.gain.setValueAtTime(0, ctx.currentTime);
             gainNode.gain.linearRampToValueAtTime(0.15, ctx.currentTime + 0.1);
 
-            // 频率变化 (模拟警报声)
+            // 频率变化模拟防空警报
             for (let i = 0; i < 5; i++) {
                 osc1.frequency.setValueAtTime(400, ctx.currentTime + (i * 1.5));
                 osc1.frequency.linearRampToValueAtTime(800, ctx.currentTime + (i * 1.5) + 0.75);
-                osc2.frequency.setValueAtTime(405, ctx.currentTime + (i * 1.5)); // 微微错开一点频率，增加刺耳感
+                osc2.frequency.setValueAtTime(405, ctx.currentTime + (i * 1.5)); 
                 osc2.frequency.linearRampToValueAtTime(805, ctx.currentTime + (i * 1.5) + 0.75);
             }
 
@@ -95,7 +91,6 @@ document.addEventListener("DOMContentLoaded", function() {
             osc1.start();
             osc2.start();
 
-            // 播放 5 秒后自动停止
             setTimeout(() => {
                 osc1.stop();
                 osc2.stop();
