@@ -48,7 +48,7 @@ theme = "PaperMod"
     name = "游戏"
     url = "/games/"
     weight = 30
-
+ 
 # 搜索功能的输出格式
 [outputs]
     home = ["HTML", "RSS", "JSON"]
