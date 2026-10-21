@@ -1,7 +1,8 @@
 +++
-date = '2026-10-19T14:02:49+08:00'
+date = '2026-10-19'
 draft = false
 title = 'My First Post'
+author = "彭杨浩宇"
 +++
 以下是测试内容！
 

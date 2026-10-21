@@ -1,0 +1,23 @@
+{{- $meta := slice }}
+
+<!-- 1. 日期部分 -->
+{{- if not .Date.IsZero -}}
+    {{- $meta = $meta | append (printf "<span>📅 %s</span>" (.Date | time.Format "2006年01月02日")) }}
+{{- end }}
+
+<!-- 2. 阅读时间部分 -->
+{{- if (.Param "ShowReadingTime") -}}
+    {{- $meta = $meta | append (printf "<span>⏱️ 阅读需 %d 分钟</span>" .ReadingTime) }}
+{{- end }}
+
+<!-- 3. 作者部分 (如果你想去掉作者，直接把下面这段删掉即可) -->
+{{- if not (.Param "hideAuthor") -}}
+    {{- with (partial "author.html" .) }}
+        {{- $meta = $meta | append (printf "<span>👤 %s</span>" .) }}
+    {{- end }}
+{{- end }}
+
+<!-- 4. 拼接输出 -->
+{{- with $meta }}
+    {{- delimit . "&nbsp;&nbsp;" | safeHTML -}}
+{{- end -}}
