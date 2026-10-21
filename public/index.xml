@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on 我的博客</title>
-    <link>http://localhost:1313/</link>
+    <link>https://pkthomas.dpdns.org/</link>
     <description>Recent content in Home on 我的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 19 Oct 2026 14:02:49 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pkthomas.dpdns.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Music</title>
-      <link>http://localhost:1313/music/strange/</link>
+      <link>https://pkthomas.dpdns.org/music/strange/</link>
       <pubDate>Mon, 19 Oct 2026 14:02:49 +0800</pubDate>
-      <guid>http://localhost:1313/music/strange/</guid>
+      <guid>https://pkthomas.dpdns.org/music/strange/</guid>
       <description>&lt;/audio&gt;
 &lt;style&gt;
 .audio-card {
@@ -48,11 +48,11 @@
 }
 &lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
-      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/111.jpg&#34; alt=&#34;Cover art for Умри, если меня не любишь&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Умри, если меня не любишь&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;不知道&lt;/div&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;https://pkthomas.dpdns.org/images/111.jpg&#34; alt=&#34;Cover art for Умри, если меня не любишь&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Умри, если меня не любишь&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;不知道&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
-        &lt;source src=&#34;http://localhost:1313/audio/%D0%A3%D0%BC%D1%80%D0%B8,%20%D0%B5%D1%81%D0%BB%D0%B8%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%BD%D0%B5%20%D0%BB%D1%8E%D0%B1%D0%B8%D1%88%D1%8C.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        &lt;source src=&#34;https://pkthomas.dpdns.org/audio/%D0%A3%D0%BC%D1%80%D0%B8,%20%D0%B5%D1%81%D0%BB%D0%B8%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%BD%D0%B5%20%D0%BB%D1%8E%D0%B1%D0%B8%D1%88%D1%8C.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     &lt;/div&gt;
@@ -91,11 +91,11 @@
 }
 &lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
-      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/222.jpg&#34; alt=&#34;Cover art for Umbrella&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Umbrella&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;Ember Island -Matte&lt;/div&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;https://pkthomas.dpdns.org/images/222.jpg&#34; alt=&#34;Cover art for Umbrella&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Umbrella&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;Ember Island -Matte&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
-        &lt;source src=&#34;http://localhost:1313/audio/Umbrella%20%28Matte%20Remix%29.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        &lt;source src=&#34;https://pkthomas.dpdns.org/audio/Umbrella%20%28Matte%20Remix%29.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     &lt;/div&gt;
@@ -134,11 +134,11 @@
 }
 &lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
-      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/333.jpg&#34; alt=&#34;Cover art for LOSER&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;LOSER&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;米津玄師&lt;/div&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;https://pkthomas.dpdns.org/images/333.jpg&#34; alt=&#34;Cover art for LOSER&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;LOSER&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;米津玄師&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
-        &lt;source src=&#34;http://localhost:1313/audio/LOSER.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        &lt;source src=&#34;https://pkthomas.dpdns.org/audio/LOSER.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     &lt;/div&gt;
@@ -177,11 +177,11 @@
 }
 &lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
-      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/444.jpg&#34; alt=&#34;Cover art for Look up to the stars&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Look up to the stars&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;未知&lt;/div&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;https://pkthomas.dpdns.org/images/444.jpg&#34; alt=&#34;Cover art for Look up to the stars&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Look up to the stars&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;未知&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
-        &lt;source src=&#34;http://localhost:1313/audio/Look%20up%20to%20the%20stars.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        &lt;source src=&#34;https://pkthomas.dpdns.org/audio/Look%20up%20to%20the%20stars.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     &lt;/div&gt;
@@ -220,11 +220,11 @@
 }
 &lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
-      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/111.jpg&#34; alt=&#34;Cover art for Monsters&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Monsters&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;Katie Sky&lt;/div&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;https://pkthomas.dpdns.org/images/111.jpg&#34; alt=&#34;Cover art for Monsters&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Monsters&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;Katie Sky&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
-        &lt;source src=&#34;http://localhost:1313/audio/Monsters.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        &lt;source src=&#34;https://pkthomas.dpdns.org/audio/Monsters.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     &lt;/div&gt;
@@ -263,11 +263,11 @@
 }
 &lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
-      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/222.jpg&#34; alt=&#34;Cover art for Fly to the moon&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Fly to the moon&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;未知&lt;/div&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;https://pkthomas.dpdns.org/images/222.jpg&#34; alt=&#34;Cover art for Fly to the moon&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Fly to the moon&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;未知&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
-        &lt;source src=&#34;http://localhost:1313/audio/Fly%20to%20the%20moon.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        &lt;source src=&#34;https://pkthomas.dpdns.org/audio/Fly%20to%20the%20moon.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     &lt;/div&gt;
@@ -306,11 +306,11 @@
 }
 &lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
-      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/333.jpg&#34; alt=&#34;Cover art for His theme&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;His theme&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;未知&lt;/div&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;https://pkthomas.dpdns.org/images/333.jpg&#34; alt=&#34;Cover art for His theme&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;His theme&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;未知&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
-        &lt;source src=&#34;http://localhost:1313/audio/His%20theme.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        &lt;source src=&#34;https://pkthomas.dpdns.org/audio/His%20theme.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     &lt;/div&gt;
@@ -349,11 +349,11 @@
 }
 &lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
-      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/444.jpg&#34; alt=&#34;Cover art for 光年之外&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;光年之外&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;G.E.M.邓紫棋&lt;/div&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;https://pkthomas.dpdns.org/images/444.jpg&#34; alt=&#34;Cover art for 光年之外&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;光年之外&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;G.E.M.邓紫棋&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
-        &lt;source src=&#34;http://localhost:1313/audio/%E5%85%89%E5%B9%B4%E4%B9%8B%E5%A4%96.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        &lt;source src=&#34;https://pkthomas.dpdns.org/audio/%E5%85%89%E5%B9%B4%E4%B9%8B%E5%A4%96.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     &lt;/div&gt;
@@ -392,11 +392,11 @@
 }
 &lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
-      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/111.jpg&#34; alt=&#34;Cover art for Bad Guy&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Bad Guy&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;Billie Eilish&lt;/div&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;https://pkthomas.dpdns.org/images/111.jpg&#34; alt=&#34;Cover art for Bad Guy&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Bad Guy&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;Billie Eilish&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
-        &lt;source src=&#34;http://localhost:1313/audio/bad%20guy.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        &lt;source src=&#34;https://pkthomas.dpdns.org/audio/bad%20guy.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     &lt;/div&gt;
@@ -435,11 +435,11 @@
 }
 &lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
-      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/222.jpg&#34; alt=&#34;Cover art for Counting Stars&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Counting Stars&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;OneRepublic&lt;/div&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;https://pkthomas.dpdns.org/images/222.jpg&#34; alt=&#34;Cover art for Counting Stars&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Counting Stars&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;OneRepublic&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
-        &lt;source src=&#34;http://localhost:1313/audio/Counting%20Stars.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        &lt;source src=&#34;https://pkthomas.dpdns.org/audio/Counting%20Stars.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     &lt;/div&gt;
@@ -478,11 +478,11 @@
 }
 &lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
-      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/333.jpg&#34; alt=&#34;Cover art for Faded&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Faded&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;Alan Walker&lt;/div&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;https://pkthomas.dpdns.org/images/333.jpg&#34; alt=&#34;Cover art for Faded&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;Faded&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;Alan Walker&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
-        &lt;source src=&#34;http://localhost:1313/audio/Faded.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        &lt;source src=&#34;https://pkthomas.dpdns.org/audio/Faded.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     &lt;/div&gt;
@@ -521,11 +521,11 @@
 }
 &lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
-      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/444.jpg&#34; alt=&#34;Cover art for 我在5：20睡觉13：14准时起&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;我在5：20睡觉13：14准时起&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;刀酱&lt;/div&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;https://pkthomas.dpdns.org/images/444.jpg&#34; alt=&#34;Cover art for 我在5：20睡觉13：14准时起&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;我在5：20睡觉13：14准时起&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;刀酱&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
-        &lt;source src=&#34;http://localhost:1313/audio/%E6%88%91%E5%9C%A85%EF%BC%9A20%E7%9D%A1%E8%A7%8913%EF%BC%9A14%E5%87%86%E6%97%B6%E8%B5%B7.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        &lt;source src=&#34;https://pkthomas.dpdns.org/audio/%E6%88%91%E5%9C%A85%EF%BC%9A20%E7%9D%A1%E8%A7%8913%EF%BC%9A14%E5%87%86%E6%97%B6%E8%B5%B7.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     &lt;/div&gt;
@@ -564,11 +564,11 @@
 }
 &lt;/style&gt;&lt;figure class=&#34;audio-card&#34;&gt;
     &lt;div class=&#34;audio-card__content&#34;&gt;
-      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/111.jpg&#34; alt=&#34;Cover art for 打上花火&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;打上花火&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;DAOKO&amp;amp;米津玄師&lt;/div&gt;
+      &lt;div class=&#34;audio-card__media&#34;&gt;&lt;img src=&#34;https://pkthomas.dpdns.org/images/111.jpg&#34; alt=&#34;Cover art for 打上花火&#34; loading=&#34;lazy&#34; /&gt;&lt;div class=&#34;audio-card__meta&#34;&gt;&lt;div class=&#34;audio-card__title&#34;&gt;打上花火&lt;/div&gt;&lt;div class=&#34;audio-card__artist&#34;&gt;DAOKO&amp;amp;米津玄師&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;audio class=&#34;audio-card__player&#34; controls preload=&#34;metadata&#34;&gt;
-        &lt;source src=&#34;http://localhost:1313/audio/%E6%89%93%E4%B8%8A%E8%8A%B1%E7%81%AB.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
+        &lt;source src=&#34;https://pkthomas.dpdns.org/audio/%E6%89%93%E4%B8%8A%E8%8A%B1%E7%81%AB.mp3&#34; type=&#34;audio/mpeg&#34; /&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     &lt;/div&gt;
@@ -576,9 +576,9 @@
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://pkthomas.dpdns.org/posts/my-first-post/</link>
       <pubDate>Mon, 19 Oct 2026 14:02:49 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://pkthomas.dpdns.org/posts/my-first-post/</guid>
       <description>&lt;p&gt;以下是测试内容！&lt;/p&gt;
 &lt;p&gt;那是我日夜思念深深爱着的人啊
 到底我该如何表达
@@ -636,17 +636,17 @@
 这里的故事你是否还记得&lt;/p&gt;
 &lt;p&gt;如果有明天
 祝福你亲爱的
-&lt;img alt=&#34;大肥鱼&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/111.jpg&#34;&gt;
+&lt;img alt=&#34;大肥鱼&#34; loading=&#34;lazy&#34; src=&#34;https://pkthomas.dpdns.org/images/111.jpg&#34;&gt;
 oiiiiiiiiiiiiiiii&lt;/p&gt;</description>
     </item>
     <item>
       <title>俄罗斯方块</title>
-      <link>http://localhost:1313/games/game/</link>
+      <link>https://pkthomas.dpdns.org/games/game/</link>
       <pubDate>Mon, 19 Oct 2026 14:02:49 +0800</pubDate>
-      <guid>http://localhost:1313/games/game/</guid>
+      <guid>https://pkthomas.dpdns.org/games/game/</guid>
       <description>&lt;p&gt;来玩一下我制作的俄罗斯方块：&lt;/p&gt;
 &lt;iframe 
-    src=&#34;http://localhost:1313/games/tetris/index.html&#34; 
+    src=&#34;https://pkthomas.dpdns.org/games/tetris/index.html&#34; 
     width=&#34;100%&#34; 
     height=&#34;700px&#34; 
     style=&#34;border: none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);&#34;&gt;
