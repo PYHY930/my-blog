@@ -1,5 +1,5 @@
 ---
-title: "资料"
+title: "从零建立一个网站"
 date: 2026-10-21
 draft: false
 ---
