@@ -106,6 +106,7 @@ layout: "single"
     <h3>📅 更新日志</h3>
     <div class="log-content">
         <ul class="update-list">
+            <li><span class="date">2026-10-21</span> 增设新板块，并实现在线浏览文档</li>
             <li><span class="date">2026-10-21</span> 更新日志框改为固定高度，支持内部滚轮翻阅。</li>
             <li><span class="date">2026-10-21</span> 更新日志上线。</li>
             <li><span class="date">2026-10-20</span> 优化了主页 UI，增加了毛玻璃特效和三大导航版块。</li>
