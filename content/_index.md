@@ -95,6 +95,17 @@ layout: "single"
         <p>把玩一下我制作的交互作品</p>
     </a>
 </div>
+<!-- 更新日志方框 -->
+<div class="update-log-box">
+    <h3>📅 更新日志</h3>
+    <ul class="update-list">
+        <li><span class="date">2026-10-21</span> 新增“更新日志”内容</li>
+        <li><span class="date">2026-10-20</span> 开启了防导弹彩蛋系统。</li>
+        <li><span class="date">2026-10-20</span> 优化了主页 UI，增加了毛玻璃特效和三大导航版块。</li>
+        <li><span class="date">2026-10-19</span> 成功部署上线！加入了俄罗斯方块小游戏和音乐播放器。</li>
+        
+    
+</div>
 
 <div style="text-align: right; margin: 50px 20px 20px 0;">
     <button id="danger-btn" style="background: transparent; border: none; color: #555; font-size: 12px; cursor: pointer; outline: none; transition: color 0.3s;" onmouseover="this.style.color='#ff3333'" onmouseout="this.style.color='#555'">别点我</button>
@@ -108,6 +119,72 @@ layout: "single"
 
 <style>
     @keyframes pulse { 0% { transform: scale(0.95); opacity: 0.8; } 100% { transform: scale(1.05); opacity: 1; } }
+    /* 更新日志方框样式 */
+.update-log-box {
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.update-log-box h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: var(--primary);
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 10px;
+}
+
+.update-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.update-list li {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: var(--secondary);
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.6;
+}
+
+.update-list li:last-child {
+    margin-bottom: 0;
+}
+
+.update-list .date {
+    font-family: monospace;
+    background: rgba(0, 255, 0, 0.1);
+    color: #00ff00; /* 极光绿点缀 */
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-right: 15px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+/* 手机端适配 */
+@media (max-width: 768px) {
+    .update-log-box {
+        margin: 20px;
+        padding: 20px;
+    }
+    .update-list li {
+        flex-direction: column;
+    }
+    .update-list .date {
+        margin-bottom: 5px;
+    }
+}
 </style>
 
 <script>
