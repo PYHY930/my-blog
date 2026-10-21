@@ -94,6 +94,12 @@ layout: "single"
         <h2>游戏</h2>
         <p>把玩一下我制作的交互作品</p>
     </a>
+    <!-- 👇 新增的书单卡片 -->
+    <a href="/study/" class="nav-card">
+        <div class="icon">📚</div>
+        <h2>资料</h2>
+        <p>这里是学习资料</p>
+    </a>
 </div>
 <!-- 更新日志方框 -->
 <div class="update-log-box">

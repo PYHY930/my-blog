@@ -48,7 +48,11 @@ theme = "PaperMod"
     name = "游戏"
     url = "/games/"
     weight = 30
- 
+[[menu.main]]
+    identifier = "study"
+    name = "资料"
+    url = "/study/"
+    weight = 40 
 # 搜索功能的输出格式
 [outputs]
     home = ["HTML", "RSS", "JSON"]
