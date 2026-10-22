@@ -7,7 +7,8 @@
 <meta name="robots" content="index, follow">
 <title>学习 | 我的博客</title>
 <meta name="keywords" content="">
-<meta name="description" content="这里是一些学习的资料">
+<meta name="description" content="这里是一些学习的资料
+">
 <meta name="author" content="你的名字">
 <link rel="canonical" href="https://pkthomas.dpdns.org/study/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.95ae6e9689bd0037456375629f411acbf8ed76e0e9a7599900ad281f9526dee6.css" integrity="sha256-la5ulom9ADdFY3Vin0Eay/jtduDpp1mZAK0oH5Um3uY=" rel="preload stylesheet" as="style">
@@ -231,7 +232,14 @@ body {
   </h1>
 </header>
 <div class="post-content md-content"><p>这里是一些学习的资料</p>
-
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    if (sessionStorage.getItem('studyUnlocked') !== 'true') {
+        alert("请先在主页输入密码！");
+        window.location.href = "/"; // 强行踢回主页
+    }
+});
+</script>
 
 </div>
 

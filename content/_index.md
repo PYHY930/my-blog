@@ -95,8 +95,12 @@ layout: "single"
         <p>把玩一下我制作的交互作品</p>
     </a>
     <!-- 👇 新增的书单卡片 -->
-    <a href="/study/" class="nav-card">
-        <div class="icon">📚</div>
+    <a href="/study/" class="nav-card" onclick="return checkPassword(event)">
+        <div class="icon" style="position: relative; display: inline-block;">
+            📚
+            <!-- 右上角悬浮一个锁图标 -->
+            <span style="position: absolute; top: -10px; right: -15px; font-size: 24px; text-shadow: 0 0 10px rgba(255,0,0,0.5);">🔒</span>
+        </div>
         <h2>资料</h2>
         <p>这里是学习资料</p>
     </a>
@@ -228,7 +232,32 @@ layout: "single"
     }
 }
 </style>
+<script>
+function checkPassword(e) {
+    // 如果你之前在这个浏览器里已经输对过密码，直接放行
+    if (sessionStorage.getItem('studyUnlocked') === 'true') {
+        return true; 
+    }
 
+    // 弹出密码输入框
+    const pwd = prompt("该资料区已加密，请输入密码解锁：");
+    
+    // 👇 在这里设置你的密码
+    const correctPwd = "930308602"; 
+
+    if (pwd === correctPwd) { 
+        // 密码正确，打上通行标记
+        sessionStorage.setItem('studyUnlocked', 'true');
+        return true; // 放行跳转
+    } else {
+        if (pwd !== null) {
+            alert("密码错误！禁止访问。");
+        }
+        e.preventDefault(); // 阻止跳转
+        return false;
+    }
+}
+</script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     const btn = document.getElementById('danger-btn'); const modal = document.getElementById('missile-modal'); const closeBtn = document.getElementById('close-btn'); let clickTimes = [];

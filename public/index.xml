@@ -14,7 +14,15 @@
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://pkthomas.dpdns.org/study/learn/</guid>
       <description>&lt;p&gt;在线预览我的文档：&lt;/p&gt;
-&lt;iframe src=&#34;https://pkthomas.dpdns.org/files/从零建立一个网站.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34; style=&#34;border: none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);&#34;&gt;&lt;/iframe&gt;</description>
+&lt;iframe src=&#34;https://pkthomas.dpdns.org/files/从零建立一个网站.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34; style=&#34;border: none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);&#34;&gt;&lt;/iframe&gt;
+&lt;script&gt;
+document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
+    if (sessionStorage.getItem(&#39;studyUnlocked&#39;) !== &#39;true&#39;) {
+        alert(&#34;请先在主页输入密码！&#34;);
+        window.location.href = &#34;/&#34;;
+    }
+});
+&lt;/script&gt;</description>
     </item>
     <item>
       <title>Music</title>
