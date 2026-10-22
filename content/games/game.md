@@ -4,7 +4,7 @@ draft = false
 title = '俄罗斯方块'
 author = "彭杨浩宇"
 +++
-<p>来玩一下我制作的俄罗斯方块：</p>
+<p>来玩一下我们制作的俄罗斯方块：</p>
 
 <iframe 
     src="/games/tetris/index.html" 

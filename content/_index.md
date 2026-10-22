@@ -87,12 +87,12 @@ layout: "single"
     <a href="/music/" class="nav-card">
         <div class="icon">🎵</div>
         <h2>音乐</h2>
-        <p>分享我喜欢的旋律</p>
+        <p>放松一下</p>
     </a>
     <a href="/games/" class="nav-card">
         <div class="icon">🎮</div>
         <h2>游戏</h2>
-        <p>把玩一下我制作的交互作品</p>
+        <p>把玩一下我们制作的交互作品</p>
     </a>
     <!-- 👇 新增的书单卡片 -->
     <a href="/study/" class="nav-card" onclick="return checkPassword(event)">
