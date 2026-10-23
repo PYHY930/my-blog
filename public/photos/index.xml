@@ -6,6 +6,19 @@
     <description>Recent content in 相册 on -phX-</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pkthomas.dpdns.org/photos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deepseek</title>
+      <link>https://pkthomas.dpdns.org/photos/deepseek/</link>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://pkthomas.dpdns.org/photos/deepseek/</guid>
+      <description>&lt;figure class=&#34;align-center &#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://pkthomas.dpdns.org/images/111.jpg#center&#34;
+         alt=&#34;这是一条非常可爱的大肥鱼&#34; width=&#34;30%&#34;/&gt; &lt;figcaption&gt;
+            大肥鱼&lt;p&gt;这是一条非常可爱的大肥鱼&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
   </channel>
 </rss>

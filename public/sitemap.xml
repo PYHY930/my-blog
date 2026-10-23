@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pkthomas.dpdns.org/photos/deepseek/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://pkthomas.dpdns.org/</loc>
-    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pkthomas.dpdns.org/photos/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pkthomas.dpdns.org/study/learn/</loc>
     <lastmod>2026-10-20T00:00:00+00:00</lastmod>
@@ -32,7 +38,5 @@
     <loc>https://pkthomas.dpdns.org/categories/</loc>
   </url><url>
     <loc>https://pkthomas.dpdns.org/tags/</loc>
-  </url><url>
-    <loc>https://pkthomas.dpdns.org/photos/</loc>
   </url>
 </urlset>
