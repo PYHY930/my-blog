@@ -68,6 +68,36 @@
 </script>
 <style>
  
+.image-row {
+    display: flex;
+    justify-content: space-between;  
+    gap: 15px;  
+    margin: 20px 0;  
+}
+
+ 
+.image-row img {
+    width: 31% !important;  
+    max-width: 31% !important;
+    height: auto !important;
+    object-fit: cover;  
+    margin: 0 !important;  
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+ 
+@media (max-width: 768px) {
+    .image-row {
+        flex-direction: column;
+    }
+    .image-row img {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+}    
+ 
 .post-content img, .md-content img {
     max-width: 30% !important;   
     height: auto !important;      
@@ -280,8 +310,7 @@ document.addEventListener("DOMContentLoaded", function() {
     </h2>
   </header>
   <div class="entry-content">
-    <p> 大肥鱼这是一条非常可爱的大肥鱼
-</p>
+    <p></p>
   </div>
   <footer class="entry-footer">
 
@@ -291,7 +320,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-<span>📅 2026年10月23日</span>&nbsp;&nbsp;<span>⏱️ 阅读需 1 分钟</span>&nbsp;&nbsp;<span>👤 彭杨浩宇</span></footer>
+<span>📅 2026年10月23日</span>&nbsp;&nbsp;<span>⏱️ 阅读需 0 分钟</span>&nbsp;&nbsp;<span>👤 彭杨浩宇</span></footer>
   <a class="entry-link" aria-label="post link to Deepseek" href="https://pkthomas.dpdns.org/photos/deepseek/"></a>
 </article>
     </main>

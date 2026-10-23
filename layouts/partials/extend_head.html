@@ -1,5 +1,35 @@
 <!-- ================= 1. 全局图片样式控制 ================= -->
 <style>
+/* 并排图片容器 */
+.image-row {
+    display: flex;
+    justify-content: space-between; /* 三个图片均匀分布 */
+    gap: 15px; /* 图片之间的间距 */
+    margin: 20px 0; /* 上下留白 */
+}
+
+/* 覆盖之前全局的图片样式，专门针对这个容器里的图片 */
+.image-row img {
+    width: 31% !important; /* 每张图占 31%，三张刚好 93%，剩下给间距 */
+    max-width: 31% !important;
+    height: auto !important;
+    object-fit: cover; /* 保证图片比例好看 */
+    margin: 0 !important; /* 去掉之前的居中代码 */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* 手机端适配：屏幕太小就变成一列竖排 */
+@media (max-width: 768px) {
+    .image-row {
+        flex-direction: column;
+    }
+    .image-row img {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+}    
 /* 强制控制文章正文中图片的样式 */
 .post-content img, .md-content img {
     max-width: 30% !important;  /* 最大宽度限制为 80% */

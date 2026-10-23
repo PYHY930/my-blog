@@ -69,6 +69,36 @@
 </script>
 <style>
  
+.image-row {
+    display: flex;
+    justify-content: space-between;  
+    gap: 15px;  
+    margin: 20px 0;  
+}
+
+ 
+.image-row img {
+    width: 31% !important;  
+    max-width: 31% !important;
+    height: auto !important;
+    object-fit: cover;  
+    margin: 0 !important;  
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+ 
+@media (max-width: 768px) {
+    .image-row {
+        flex-direction: column;
+    }
+    .image-row img {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+}    
+ 
 .post-content img, .md-content img {
     max-width: 30% !important;   
     height: auto !important;      
