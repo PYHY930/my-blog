@@ -21,3 +21,7 @@ author = "彭杨浩宇"
     <img src="/images/444.jpg" alt="大肥鱼">
     <img src="/images/69.jpeg" alt="大肥鱼">
 </div>
+<div class="image-row">
+    <img src="/images/7.jpg" alt="大肥鱼">
+    <img src="/images/8.jpg" alt="大肥鱼">
+</div>
