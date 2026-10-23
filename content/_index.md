@@ -110,6 +110,7 @@ layout: "single"
     <h3>📅 更新日志</h3>
     <div class="log-content">
         <ul class="update-list">
+            <li><span class="date">2026-10-21</span> 加入AI助手（deepseek），但由于经费不足，AI目前无法正常使用</li>
             <li><span class="date">2026-10-21</span> 修改文章建立时间，作者等显示</li>
             <li><span class="date">2026-10-21</span> 增设新板块，并实现在线浏览文档</li>
             <li><span class="date">2026-10-21</span> 更新日志框改为固定高度，支持内部滚轮翻阅。</li>
