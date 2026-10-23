@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://pkthomas.dpdns.org/</loc>
     <lastmod>2026-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/study/learn/</loc>
+    <loc>https://pkthomas.dpdns.org/study/learn/</loc>
     <lastmod>2026-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/study/</loc>
+    <loc>https://pkthomas.dpdns.org/study/</loc>
     <lastmod>2026-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/music/strange/</loc>
+    <loc>https://pkthomas.dpdns.org/music/strange/</loc>
     <lastmod>2026-10-19T14:02:49+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/games/game/</loc>
+    <loc>https://pkthomas.dpdns.org/games/game/</loc>
     <lastmod>2026-10-19T14:02:49+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/games/</loc>
+    <loc>https://pkthomas.dpdns.org/games/</loc>
     <lastmod>2026-10-19T14:02:49+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/music/</loc>
+    <loc>https://pkthomas.dpdns.org/music/</loc>
     <lastmod>2026-10-19T14:02:49+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <loc>https://pkthomas.dpdns.org/posts/my-first-post/</loc>
     <lastmod>2026-10-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://pkthomas.dpdns.org/posts/</loc>
     <lastmod>2026-10-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://pkthomas.dpdns.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://pkthomas.dpdns.org/tags/</loc>
   </url>
 </urlset>
