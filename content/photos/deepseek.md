@@ -12,4 +12,4 @@ author = "彭杨浩宇"
 ![大肥鱼](/images/5.jpg)
 ![大肥鱼](/images/6.jpg)
 ![大肥鱼](/images/444.jpg)
-![大肥鱼](/images/69.jpg)
+![大肥鱼](/images/69.jpeg)
