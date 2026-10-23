@@ -53,6 +53,11 @@ theme = "PaperMod"
     name = "资料"
     url = "/study/"
     weight = 40 
+[[menu.main]]
+    identifier = "photos"
+    name = "相册"
+    url = "/photos/"
+    weight = 50
 # 搜索功能的输出格式
 [outputs]
     home = ["HTML", "RSS", "JSON"]

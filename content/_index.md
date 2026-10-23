@@ -104,6 +104,12 @@ layout: "single"
         <h2>资料</h2>
         <p>这里是学习资料</p>
     </a>
+        <!-- 新增的相册卡片 -->
+    <a href="/photos/" class="nav-card">
+        <div class="icon">📷</div>
+        <h2>相册</h2>
+        <p>抽象</p>
+    </a>
 </div>
 <!-- 更新日志方框 -->
 <div class="update-log-box">
