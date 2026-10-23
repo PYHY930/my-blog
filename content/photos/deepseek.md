@@ -42,7 +42,7 @@ author = "彭杨浩宇"
     <img src="/images/22.jpg" alt="大肥鱼">
 </div>
 <div class="image-row">
-    <img src="/images/23.jpeg" alt="大肥鱼">
+    <img src="/images/33.png" alt="大肥鱼">
     <img src="/images/24.jpeg" alt="大肥鱼">
     <img src="/images/25.jpeg" alt="大肥鱼">
 </div>
@@ -58,7 +58,7 @@ author = "彭杨浩宇"
 </div>
 <div class="image-row">
     <img src="/images/32.jpg" alt="大肥鱼">
-    <img src="/images/33.png" alt="大肥鱼">
+    <img src="/images/23.jpeg" alt="大肥鱼">
     <img src="/images/34.png" alt="大肥鱼">
 </div>
 <div class="image-row">
