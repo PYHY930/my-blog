@@ -102,13 +102,15 @@ layout: "single"
             <span style="position: absolute; top: -10px; right: -15px; font-size: 24px; text-shadow: 0 0 10px rgba(255,0,0,0.5);">🔒</span>
         </div>
         <h2>资料</h2>
-        <p>这里是学习资料</p>
-    </a>
-        <!-- 新增的相册卡片 -->
-    <a href="/photos/" class="nav-card">
-        <div class="icon">📷</div>
+        <!-- 带锁的相册卡片 -->
+    <a href="/photos/" class="nav-card" onclick="return checkPhotosPassword(event)">
+        <div class="icon" style="position: relative; display: inline-block;">
+            📷
+            <!-- 右上角悬浮一个锁图标 -->
+            <span style="position: absolute; top: -10px; right: -15px; font-size: 24px; text-shadow: 0 0 10px rgba(255,0,0,0.5);">🔒</span>
+        </div>
         <h2>相册</h2>
-        <p>抽象</p>
+        <p>记录生活中的美好瞬间</p>
     </a>
 </div>
 <!-- 更新日志方框 -->
@@ -241,27 +243,34 @@ layout: "single"
 }
 </style>
 <script>
+// 资料板块的密码验证
 function checkPassword(e) {
-    // 如果你之前在这个浏览器里已经输对过密码，直接放行
-    if (sessionStorage.getItem('studyUnlocked') === 'true') {
-        return true; 
-    }
-
-    // 弹出密码输入框
+    if (sessionStorage.getItem('studyUnlocked') === 'true') return true;
     const pwd = prompt("该资料区已加密，请输入密码解锁：");
-    
-    // 👇 在这里设置你的密码
-    const correctPwd = "930308602"; 
+    const correctPwd = "my-study-2026"; // 你资料的真实密码
+    if (pwd === correctPwd) { 
+        sessionStorage.setItem('studyUnlocked', 'true');
+        return true;
+    } else {
+        if (pwd !== null) alert("密码错误！禁止访问。");
+        e.preventDefault(); return false;
+    }
+}
+
+// 👇 新增：相册板块的密码验证
+function checkPhotosPassword(e) {
+    // 如果已经解锁过，直接放行
+    if (sessionStorage.getItem('photosUnlocked') === 'true') return true;
+
+    const pwd = prompt("请输入相册密码查看照片：");
+    const correctPwd = "930308602"; // 👈 在这里设置你的相册密码
 
     if (pwd === correctPwd) { 
-        // 密码正确，打上通行标记
-        sessionStorage.setItem('studyUnlocked', 'true');
-        return true; // 放行跳转
+        sessionStorage.setItem('photosUnlocked', 'true');
+        return true; 
     } else {
-        if (pwd !== null) {
-            alert("密码错误！禁止访问。");
-        }
-        e.preventDefault(); // 阻止跳转
+        if (pwd !== null) alert("密码错误！禁止访问。");
+        e.preventDefault(); 
         return false;
     }
 }
