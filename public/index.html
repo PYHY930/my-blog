@@ -558,7 +558,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function checkPassword(e) {
     if (sessionStorage.getItem('studyUnlocked') === 'true') return true;
     const pwd = prompt("该资料区已加密，请输入密码解锁：");
-    const correctPwd = "my-study-2026"; // 你资料的真实密码
+    const correctPwd = "930308602"; // 你资料的真实密码
     if (pwd === correctPwd) { 
         sessionStorage.setItem('studyUnlocked', 'true');
         return true;
