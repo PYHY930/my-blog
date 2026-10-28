@@ -110,7 +110,7 @@ layout: "single"
             <span style="position: absolute; top: -10px; right: -15px; font-size: 24px; text-shadow: 0 0 10px rgba(255,0,0,0.5);">🔒</span>
         </div>
         <h2>相册</h2>
-        <p>记录生活中的美好瞬间</p>
+        <p>一些抽象照片</p>
     </a>
 </div>
 <!-- 更新日志方框 -->
