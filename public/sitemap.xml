@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pkthomas.dpdns.org/photos/deepseek/</loc>
-    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+    <loc>https://pkthomas.dpdns.org/posts/discuss1/</loc>
+    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pkthomas.dpdns.org/posts/discuss2/</loc>
+    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pkthomas.dpdns.org/</loc>
+    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pkthomas.dpdns.org/posts/</loc>
+    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pkthomas.dpdns.org/photos/deepseek/</loc>
     <lastmod>2026-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pkthomas.dpdns.org/study/carplan1/</loc>
@@ -36,9 +45,6 @@
     <lastmod>2026-10-19T14:02:49+08:00</lastmod>
   </url><url>
     <loc>https://pkthomas.dpdns.org/posts/my-first-post/</loc>
-    <lastmod>2026-10-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pkthomas.dpdns.org/posts/</loc>
     <lastmod>2026-10-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pkthomas.dpdns.org/categories/</loc>
