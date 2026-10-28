@@ -13,28 +13,31 @@
       <link>https://pkthomas.dpdns.org/posts/discuss1/</link>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://pkthomas.dpdns.org/posts/discuss1/</guid>
-      <description>&lt;p&gt;1.我不认为AI会取代电子信息类工程师
-迄今为止，AI多元化发展趋势明显，在特定方向上各具优势，但是AI仍存在自身的不足：AI幻觉
-AI幻觉是AI使用过程中的常见现象，不论是综合能力强的GPT-5.2还是强搜索能力的Gemini，都无法完全避免AI幻觉。同时，就目前来看，AI天然不具有想象能力，尽管AI的思考能力已经超越人类，但是AI的“想象力”始终被人类命令限制。
-而电子信息工程师以“软硬兼施”的高综合性著称，是在物理世界与信息世界之间做接口和系统集成。其实验与实践的特点，前沿方向的创造性，是AI所无法取代的。&lt;/p&gt;
-&lt;p&gt;2.我会将AI作为助手和辅助工具
-AI可以很好的辅助学习，上文提到，AI有强大的搜索和思考能力，可以辅助我们完成重复性工作，就比如你把文件地址告诉AI，它就可以将链接代码包装好，这样可以极大提升效率。但我认为AI代写作业是违反规定的。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;1. 我不认为 AI 会取代电子信息类工程师&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;迄今为止，AI 多元化发展趋势明显，在特定方向上各具优势，但是 AI 仍存在自身的不足：&lt;strong&gt;AI 幻觉&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;AI 幻觉是 AI 使用过程中的常见现象，不论是综合能力强的 GPT-5.2 还是强搜索能力的 Gemini，都无法完全避免 AI 幻觉。同时，就目前来看，AI 天然不具有想象能力，尽管 AI 的思考能力已经超越人类，但是 AI 的“想象力”始终被人类命令限制。&lt;/p&gt;
+&lt;p&gt;而电子信息工程师以“软硬兼施”的高综合性著称，是在物理世界与信息世界之间做接口和系统集成。其实验与实践的特点，前沿方向的创造性，是 AI 所无法取代的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 我会将 AI 作为助手和辅助工具&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;AI 可以很好的辅助学习，上文提到，AI 有强大的搜索和思考能力，可以辅助我们完成重复性工作，就比如你把文件地址告诉 AI，它就可以将链接代码包装好，这样可以极大提升效率。&lt;/p&gt;
+&lt;p&gt;但我认为，&lt;strong&gt;AI 代写作业是违反规定的。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Discuss1</title>
       <link>https://pkthomas.dpdns.org/posts/discuss2/</link>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://pkthomas.dpdns.org/posts/discuss2/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;案例：
-2026年5月，华为正式提出 韬(τ)定律 (Tau Scaling Law)通过时间缩微，替代摩尔定律的几何缩微。
-摩尔定律是追求空间上的极致，但在3nm以下，量子隧穿效应导致漏电发热，成本也呈指数级飙升。而τ定律是系统性压缩从器件、电路、芯片到系统全链条的信号传播时间成本，通过垂直堆叠，大幅缩短物理路径。&lt;/li&gt;
-&lt;li&gt;持续创新：
-不只是在摩尔定律及其相关方面下深耕，更将目光从空间转向时间，实现思维的全面转化，从跟随到原创的跨越，这是工程师的必备品质&lt;/li&gt;
-&lt;li&gt;准备：
-①要扎实基础课程，如高数、大物、模电数电等基础课程，培养专业素养
-②培养动手协作能力，在实验和实践中积累经验
-③解放思想，了解并将目光投向前沿，敢想敢做&lt;/li&gt;
+      <description>&lt;p&gt;&lt;strong&gt;1. 案例：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2026年5月，华为正式提出 &lt;strong&gt;韬(τ)定律 (Tau Scaling Law)&lt;/strong&gt;，通过时间缩微，替代摩尔定律的几何缩微。&lt;/p&gt;
+&lt;p&gt;摩尔定律是追求空间上的极致，但在 3nm 以下，量子隧穿效应导致漏电发热，成本也呈指数级飙升。而 τ 定律是系统性压缩从器件、电路、芯片到系统全链条的信号传播时间成本，通过垂直堆叠，大幅缩短物理路径。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2. 持续创新：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;不只是在摩尔定律及其相关方面下深耕，更将目光从空间转向时间，实现思维的全面转化，从跟随到原创的跨越，这是工程师的必备品质。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 准备：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;要扎实基础课程，如高数、大物、模电数电等基础课程，培养专业素养。&lt;/li&gt;
+&lt;li&gt;培养动手协作能力，在实验和实践中积累经验。&lt;/li&gt;
+&lt;li&gt;解放思想，了解并将目光投向前沿，敢想敢做。&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
     <item>
